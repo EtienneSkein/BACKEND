@@ -4,7 +4,10 @@
   "main": "index.js",
   "scripts": {
     "start": "node server.mjs",
-    "dev": "nodemon server.mjs"
+    "dev": "nodemon server.mjs",
+    "lint": "eslint .",
+    "test": "jest",
+    "deploy": "echo 'Deploy script needs to be defined'"
   },
   "keywords": [],
   "author": "",
